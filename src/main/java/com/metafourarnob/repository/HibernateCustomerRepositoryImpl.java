@@ -3,10 +3,13 @@ package com.metafourarnob.repository;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.metafourarnob.model.Customer;
 
-public class HibernateCustomerRepositoryImpl implements CustomerRepository {
 
+//@Repository("customerRepository")
+public class HibernateCustomerRepositoryImpl implements CustomerRepository {
 	/* (non-Javadoc)
 	 * @see com.metafourarnob.repository.CustomerRepository#findAll()
 	 */

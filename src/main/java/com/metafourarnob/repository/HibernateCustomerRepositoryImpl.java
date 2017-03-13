@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.metafourarnob.model.Customer;
 
 
-//@Repository("customerRepository")
+@Repository("customerRepository")
 public class HibernateCustomerRepositoryImpl implements CustomerRepository {
 	/* (non-Javadoc)
 	 * @see com.metafourarnob.repository.CustomerRepository#findAll()

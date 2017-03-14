@@ -3,12 +3,14 @@ package com.metafourarnob.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 import com.metafourarnob.model.Customer;
 import com.metafourarnob.repository.CustomerRepository;
 
 @Service("customerService")
+@Scope("singleton")
 public class CustomerServiceImpl implements CustomerService {
 	
 //	@Autowired

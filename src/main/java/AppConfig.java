@@ -1,9 +1,5 @@
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-
-import com.metafourarnob.service.CustomerService;
-import com.metafourarnob.service.CustomerServiceImpl;
 
 @Configuration
 @ComponentScan({"com.metafourarnob"})

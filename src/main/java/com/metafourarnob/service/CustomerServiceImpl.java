@@ -11,7 +11,7 @@ import com.metafourarnob.model.Customer;
 import com.metafourarnob.repository.CustomerRepository;
 
 @Service("customerService")
-@Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class CustomerServiceImpl implements CustomerService {
 	
 //	@Autowired
